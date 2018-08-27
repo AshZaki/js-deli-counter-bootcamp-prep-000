@@ -1,9 +1,8 @@
+var num =1;
 
-
-
-function takeANumber(line,name){
-  line.push(name);
-  return `Welcome, ${name}. You are number ${line.length} in line.`;
+function takeANumber(line){
+  line.push(num++);
+  return `Welcome,You are ticket number ${line.length} in line.`;
 }
 
 
